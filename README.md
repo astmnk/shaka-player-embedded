@@ -87,6 +87,10 @@ compatible C++ library (installed with most compilers, e.g. gcc).
 2. Install Chromium depot tools, which contains ninja and other required tools.
 See <https://www.chromium.org/developers/how-tos/install-depot-tools> for
 details.
+```shell
+git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+export PATH=/path/to/depot_tools:$PATH
+```
 
 3. Get the source
 
